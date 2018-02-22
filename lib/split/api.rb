@@ -18,7 +18,7 @@ module Split
     post '/finished' do
       experiment = params[:experiment]
       ab_finished(experiment)
-      200
+      204
     end
   end
 end
